@@ -53,7 +53,7 @@ namespace Carnell_T3
             Console.WriteLine("CAD      USD");
             Console.WriteLine("$0.00    $0.00");
 
-            while (cadVal < 200)
+            while (cadVal <= 200)
             {
                 Console.WriteLine("$" + cadVal.ToString("0.00") + "   $" + usdVal.ToString("0.00"));
                 cadVal += incVal;
